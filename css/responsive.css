@@ -1,0 +1,266 @@
+@media (max-width: 357px) {
+    
+    .contact-info a {
+        font-size: 0.4em;
+        background-size: 12px 12px;
+        line-height: 100%;
+    }
+    
+    .about-p,
+    p {
+        font-size: 0.4em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    #bullet-list li {
+        margin-left: 0;
+        font-size: 0.7em;
+        display: block;
+    }
+    
+    h3 {
+        font-size: 2em;
+    }
+    
+    h4:before,
+    h4:after {
+        width: 15vw;
+        height: 2px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    
+    #thumbnails {
+        text-align: center;
+    }
+    
+    #thumbnails li {
+        display: inline-block;
+        float: none;
+    }
+    
+    h4 {
+        font-size: 0.8em;
+    }
+    
+    #bullet-list {
+        margin-left: 4.5em;;
+        font-size: 0.8em;
+    }
+    
+    p {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    
+}
+
+@media (min-width: 358px) and (max-width: 500px) {
+        
+    .contact-info a {
+        font-size: 0.7em;
+        background-size: 20px 20px;
+        line-height: 90%;
+    }
+    
+    p {
+        margin-top: 1.7em;
+        margin-bottom: 2em;
+    }
+    
+    h3 {
+        font-size: 2.5em;
+    }
+    
+    h4:before,
+    h4:after {
+        width: 25%;
+        height: 2px;
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width: 559px) {
+    
+    .contact-info a {
+        font-size: 0.8em;
+        background-size: 19px 19px;
+        line-height: 60%;
+    }
+    
+}
+
+@media (min-width: 401px) and (max-width: 499px) {
+    
+    h3 {
+        font-size: 3em;
+    }
+    
+    h4 {
+        font-size: 1.3em;
+    }
+    
+        #bullet-list {
+        margin-left: 6.5em;
+        font-size: 0.8em;
+    }
+    
+}
+ 
+@media (min-width: 500px) and (max-width: 680px) {
+    
+    h3 {
+        font-size: 3.5em;
+    }
+    
+    h4 {
+        font-size: 1.5em;
+    }
+    
+    h4:before,
+    h4:after {
+        width: 25%;
+        height: 2px;
+    }
+    
+    #bullet-list {
+        margin-left: 7.5em;
+        font-size: 0.9em;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    
+    h1 {
+        font-size: 1.6em;
+    }
+    
+    h2 {
+        font-size: 0.9em;
+    }
+    
+    
+    h5 {
+        font-size: 0.7em;
+    }
+    
+    p {
+        font-size: 0.75em;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #profile {
+        width: 50px;
+        height: 50px;
+        top: 20%;
+    }
+    
+    .profile-pic {
+        width: 15em;
+        height: 15em;
+        margin: 0 auto 1em;
+    }
+    
+    .contact-info a {
+        padding-bottom: 5%;
+    }
+    
+}
+
+@media (min-width: 681px) and (max-width: 870px) {
+    
+    h3 {
+        font-size: 6em;
+    }
+    
+    h4:before,
+    h4:after {
+        width: 30%;
+        height: 2px;
+    }
+    
+    .profile-pic {
+        width: 17em;
+        height: 17em;
+        margin: 0 auto 1em;
+    }
+    
+    .contact-info a {
+        padding-bottom: 3%;
+    }
+    
+    #bullet-list {
+        margin-left: 7.5em;
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width: 871px) and (max-width: 1000px) {
+    
+    #bullet-list {
+        margin-left: 8em;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    
+    .screenshots li {
+        width: 70%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    
+    .contact-info a {
+        font-size: 0.8em;
+        background-size: 23px 23px;
+        line-height: 90%;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+    
+    #bullet-list li {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .screenshots li {
+        width: 30%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    p {
+        margin-top: 2em;
+        margin-bottom: 2.5em;
+    }
+    
+}
+
+@media (max-width: 1501px) {
+    
+    #thumbnails li {
+        width: 40%;
+    }
+    
+    #thumbnails li:nth-child(3n) {
+        clear: left;
+    }
+    
+}
